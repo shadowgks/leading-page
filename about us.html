@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- LINK FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,600;0,700;1,300;1,600&display=swap" rel="stylesheet">
+
+    <!-- LINK ICONES FONTAWSOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- LINK ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>WEBSITE</title>
+</head>
+<body>
+   <!----------Header nav---------->
+    <section class="sub__Header">
+
+        <nav>
+            <a href=""><img src="img/logo.png" alt=""></a>
+            <div class="nav__links nav__mobile"  id="nav__links">
+                <i class="fas fa-times" onclick=hidemenu()></i>
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="about us.html"><li>ABOUT</li></a>   
+                    <a href="course.html"><li>COURSE</li></a> 
+                    <a href="blog.html"><li>BLOG</li></a> 
+                    <a href="contact.html"><li>CONTACT</li></a>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick=showmenu()></i>
+        </nav>
+
+            <h1>About US</h1>
+
+    </section>
+
+    <!----------About us/Info---------->
+       
+
+      <section class="info">
+           
+          <div class="row">
+            <div class="about__col">
+                <h1>We are the world's larfest university</h1>
+                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, 
+                    and expound the actual teachings of the great explorer of</p>
+                    <div>
+                        <a href="" class="hero__btn white__btn">EXPLORE NOW</a>
+                    </div>
+                    
+              </div>
+              
+              <div class="about__col">
+                  <img src="img/about.jpg" alt="">
+            </div>
+                      
+          </div>
+         
+             
+      </section>
+
+
+
+
+
+         <!----------Footer---------->
+         <footer>
+             <h4>About US</h4>
+             <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In 
+                Hac Habitasse Platea Dictumst 
+                Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+
+                <div class="icons">
+                   <a href=""><i class="fab fa-facebook-f"></i></a> 
+                   <a href=""> <i class="fab fa-instagram"></i></a>
+                   <a href=""><i class="fab fa-twitter"></i></a> 
+                   <a href=""><i class="fab fa-discord"></i></a>  
+                   <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                <p>Made With <i class="far fa-heart"></i> ConanGM</p>
+         </footer>
+    <!----------Javascript menu---------->
+    <script>
+        var menu=document.getElementById("nav__links");
+        function hidemenu(){
+            menu.style.right="-200px";
+        }
+        function showmenu(){
+            menu.style.right="0";
+        }
+    </script>
+</body>
+</html>

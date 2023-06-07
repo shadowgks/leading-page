@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- LINK FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,600;0,700;1,300;1,600&display=swap" rel="stylesheet">
+
+    <!-- LINK ICONES FONTAWSOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- LINK ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>WEBSITE</title>
+</head>
+<body>
+   <!----------Header nav---------->
+    <section class="sub__Header">
+
+        <nav>
+            <a href=""><img src="img/logo.png" alt=""></a>
+            <div class="nav__links nav__mobile"  id="nav__links">
+                <i class="fas fa-times" onclick=hidemenu()></i>
+                 <ul>
+                    
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="about us.html"><li>ABOUT</li></a>   
+                        <a href="course.html"><li>COURSE</li></a> 
+                        <a href="blog.html"><li>BLOG</li></a> 
+                        <a href="contact.html"><li>CONTACT</li></a>
+                    
+                 </ul>
+            </div>
+            <i class="fas fa-bars" onclick=showmenu()></i>
+        </nav>
+
+            <h1>Blog</h1>
+
+    </section>
+
+     <!----------Blog---------->
+ 
+     <section class="blog">
+         <div class="row">
+             <div class="blog__col__left">
+               <img src="img/certificate.jpg">
+               <h1>Programs For 2021</h1>
+      
+                   <p class="info__p">hi welcome to programming if you've never learned to program before it you might be wondering what programming actually is well when we write a program we're giving the computer a series of commands that kind of look like a weird form of English you can think of a computer as a very obedient dog listening to your every command and doing whatever you tell it to do so what's so cool about programming well it really depends on what you think is cool because as it turns out you can use programming for almost everything programs control robots that can take care of patients and my favorite robots that can roam around Mars and look for water on the surface programs help self-driving cars know which way to turn which is pretty important programs help doctors cure diseases by processing huge amounts of medical data programs can be really fun games like doodle jump Angry Birds minecraft programs make it possible for Pixar to put out their awesome 3d animated movies and for movies like Harry Potter to have such cool special effects what's your favorite movie I bet that a computer helped make it somehow programs are behind the websites and the apps that you use every day all the time like Google Maps and Wikipedia and YouTube and of course where you are now Khan Academy here on Khan Academy you'll learn how to write JavaScript programs to make drawings animations and games and that will be a great start towards creating whatever you're imagining in your head I know it might be hard to see how a drawing program relates to programs for robots or curing diseases but believe it or not the same basic concepts are used by pretty much every programmer in every program once you learn to program JavaScript you'll be able to learn other programming languages much more easily now you just gotta keep going</p>
+                   
+               <div class="comment__box">
+
+                    <h2>Leave a comment</h2>
+
+                    <form class="comment__form">
+                        <input type="text" placeholder="Enter Name" name="" id="">
+                       <input type="text" placeholder="Enter Email" name="" id="">
+                       <textarea name="" id="" rows="5" placeholder="Your comment"></textarea>
+                    <button class="hero__btn white__btn">POST COMMENT</button>
+
+                   </form>
+
+               </div>
+             </div>
+
+             <div class="blog__col__right">
+                    <h3>Post Categories</h3>
+                  <div >
+                        <p>Business Analyticsp</p>
+                      <p>21</p>               
+                  </div>
+                  <div>
+                      <p>Business Analyticsp</p>
+                    <p>21</p>
+                    
+                </div>
+                <div >            
+                      <p>Business Analyticsp</p>
+                    <p>21</p>
+                    
+                </div>
+                <div >
+                      <p>Business Analyticsp</p>
+                    <p>21</p>
+                    
+                </div>
+                <div>
+                      <p>Business Analyticsp</p>
+                    <p>21</p>
+                    
+                </div>
+                     
+                        
+                   
+
+            </div>
+
+         </div>
+        
+     </section>
+
+
+         <!----------Footer---------->
+         <footer>
+             <h4>About US</h4>
+             <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In 
+                Hac Habitasse Platea Dictumst 
+                Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+
+                <div class="icons">
+                   <a href=""><i class="fab fa-facebook-f"></i></a> 
+                   <a href=""> <i class="fab fa-instagram"></i></a>
+                   <a href=""><i class="fab fa-twitter"></i></a> 
+                   <a href=""><i class="fab fa-discord"></i></a>  
+                   <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                <p>Made With <i class="far fa-heart"></i> ConanGM</p>
+         </footer>
+    <!----------Javascript menu---------->
+    <script>
+        var menu=document.getElementById("nav__links");
+        function hidemenu(){
+            menu.style.right="-200px";
+        }
+        function showmenu(){
+            menu.style.right="0";
+        }
+    </script>
+</body>
+</html>

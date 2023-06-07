@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- LINK FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,600;0,700;1,300;1,600&display=swap" rel="stylesheet">
+
+    <!-- LINK ICONES FONTAWSOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- LINK ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>WEBSITE</title>
+</head>
+<body>
+   <!----------Header nav---------->
+    <section class="Header">
+
+        <nav>
+            <a href=""><img src="img/logo.png" alt=""></a>
+            <div class="nav__links nav__mobile"  id="nav__links">
+                <i class="fas fa-times" onclick=hidemenu()></i>
+                 <ul>
+                     <a href="index.html"><li>HOME</li></a>
+                     <a href="about us.html"><li>ABOUT</li></a>   
+                     <a href="course.html"><li>COURSE</li></a> 
+                     <a href="blog.html"><li>BLOG</li></a> 
+                     <a href="contact.html"><li>CONTACT</li></a>
+                 </ul>
+            </div>
+            <i class="fas fa-bars" onclick=showmenu()></i>
+        </nav>
+        
+        
+
+        <div class="text__box">
+            <h1>UPGRADE YOUR BODY AT GYMSO FITNESS</h1>
+            <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In Hac Habitasse Platea Dictumst<br> Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+            <a href="" class="hero__btn">Visit US</a>
+        </div>
+
+
+    </section>
+
+    
+      <!----------Couerses---------->
+       <section class="course">
+           <h1>Courses We Offer</h1>
+           <p>Loren ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           <div class="row">
+               <div class="course__Col">
+                   <h3>Intermediate</h3>
+                   <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In Hac Habitasse Platea Dictumst Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+               </div>
+               <div class="course__Col">
+                   <h3>Intermediate</h3>
+                   <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In Hac Habitasse Platea Dictumst Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+               </div>
+               <div class="course__Col">
+                   <h3>Intermediate</h3>
+                   <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In Hac Habitasse Platea Dictumst Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+               </div>
+           </div>
+       </section>
+
+     <!----------Campus---------->
+
+     <section class="campus">
+         <h1>Our Global Campus</h1>
+         <p>Loren ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <div class="row">
+             <div class="campus__col">
+                 <img src="img/london.png" alt="">
+                 <div class="name"><h3>LONDON</h3></div>
+             </div>
+             <div class="campus__col">
+                 <img src="img/newyork.png" alt="">
+                 <div class="name"><h3>NEWYORK</h3></div>
+             </div>
+             <div class="campus__col">
+                 <img src="img/washington.png" alt="">
+                 <div class="name"><h3>WASHINGTON</h3></div>
+             </div>
+         </div>
+     </section>
+
+      <!----------Facilities---------->
+     
+      <section class="facilities">
+          <h1>Our Facilities</h1>
+          <p>Loren ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="row">
+              <div class="facilities__Col">
+                  <img src="img/library.png" alt="">
+                  <h3>Worls Class Library</h3>
+                  <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In Hac Habitasse Platea Dictumst Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+              </div>
+              <div class="facilities__Col">
+                  <img src="img/basketball.png" alt="">
+                  <h3>Worls Class Library</h3>
+                  <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In Hac Habitasse Platea Dictumst Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+              </div>
+              <div class="facilities__Col">
+                  <img src="img/cafeteria.png" alt="">
+                  <h3>Worls Class Library</h3>
+                  <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In Hac Habitasse Platea Dictumst Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+              </div>
+          </div>
+      </section>
+
+       <!----------Testimonials---------->
+
+      <section class="testimonials">
+            
+        <h1>Our Our Student Says</h1>
+        <p>Loren ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           <div class="row">
+               <div class="testimonials__col">
+                   <img src="img/user1.jpg" alt="">
+                   <div>
+                       <p>
+                        Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In 
+                        Hac Habitasse Platea Dictumst 
+                        Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At. 
+                       </p>
+                       <h3>Christine Berkley</h3>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star-half-alt"></i>
+                   </div>
+               </div>
+               <div class="testimonials__col">
+                   <img src="img/user2.jpg" alt="">
+                   <div>
+                       <p>
+                        Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In 
+                        Hac Habitasse Platea Dictumst 
+                        Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At. 
+                       </p>
+                       <h3>David Berkley</h3>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+               </div>
+           </div>
+      </section>
+
+         <!----------Call To Action---------->
+        <section class="cta">
+            <h1>Enroll For Our Verius Online Courses Anywhere From The World</h1>
+            <a href="" class="hero__btn">Contact Us</a>
+        </section>
+           
+         <!----------Footer---------->
+         <footer>
+             <h4>About US</h4>
+             <p>Et Malesuada Fames Ac Turpis Egestas Duis Rutrum Eros Ut Sapien In 
+                Hac Habitasse Platea Dictumst 
+                Aliquam Venenatis Leo Et Orci Ut Pretium Odio Eu Nisi Nulla At.</p>
+
+                <div class="icons">
+                   <a href=""><i class="fab fa-facebook-f"></i></a> 
+                   <a href=""> <i class="fab fa-instagram"></i></a>
+                   <a href=""><i class="fab fa-twitter"></i></a> 
+                   <a href=""><i class="fab fa-discord"></i></a>  
+                   <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                <p>Made With <i class="far fa-heart"></i> ConanGM</p>
+         </footer>
+    <!----------Javascript menu---------->
+    <script>
+        var menu=document.getElementById("nav__links");
+        function hidemenu(){
+            menu.style.right="-300px";
+        }
+        function showmenu(){
+            menu.style.right="0";
+        }
+    </script>
+</body>
+</html>
